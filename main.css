@@ -1,0 +1,23 @@
+.header {
+    width: 1100px;
+    height: 77px;
+    background-color: #27273e;
+}
+.logo {
+    width: 99px;
+    height: 51px;
+}
+.banner {
+    width: 1100px;
+    height: 359px;
+}
+.wallet_icon {
+    background-image: url("wallet_icon.png");
+    position: absolute;
+    left: 20px;
+    top: 599px;
+    width: 19px;
+    height: 16px;
+    z-index: 86;
+  }
+  
