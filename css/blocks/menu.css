@@ -1,0 +1,57 @@
+.menu__item {
+    margin-bottom: 15px;
+}
+
+.menu__text {
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 2.4px;
+    text-transform: uppercase;
+    text-decoration: none;
+    display: block;
+    color: #ec1e79;
+
+}
+
+.menu__text:hover {
+    color: #000;
+}
+
+.menu__text:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 24px;
+    height: 18px;
+    background: no-repeat center center;
+    margin-right: 20px;
+}
+
+.menu {
+    top: 72px;
+}
+
+.menu__text--icon--main:before {
+    background-image: url(/././images/menu/main.png);
+}
+
+.menu__text--icon--main:before:hover {
+    background-image: url(/././images/menu/main-hover.png);
+}
+
+.menu__text--icon--feed:before:hover {
+    background-image: url(/././images/menu/feed-hover.png);
+}
+
+
+.menu__text--icon--feed:before {
+    background-image: url(/././images/menu/feed.png);
+}
+
+.menu__text--icon--wallet:before {
+    background-image: url(/././images/menu/wallet.png);
+}
+
+.menu__text--icon--wallet:before:hover {
+    background-image: url(/././images/menu/wallet-hover.png);
+}

@@ -1,0 +1,27 @@
+.pagination {
+    flex: 1;
+    display: flex;
+    margin-bottom: 74px;
+    justify-content: center;
+}
+
+.pagination__display {
+    flex: 1;
+    width: 103px;
+    text-align: right;
+}
+
+.pagination__controlls {
+    flex: 1;
+    display: flex;
+    width: 201px;
+}
+
+.pagination__pages-list {
+    display: flex;
+    flex: 1;
+    text-align: left;
+}
+.pagination__pages-item {
+    flex: 1;
+}

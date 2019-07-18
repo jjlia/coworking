@@ -1,23 +1,30 @@
-.header {
-    width: 1100px;
-    height: 77px;
-    background-color: #27273e;
-}
-.header .container {
-    height: 77px;
-    position: relative;
-}
-.banner {
-    width: 1100px;
-    height: 359px;
-}
-.wallet_icon {
-    background-image: url("wallet_icon.png");
-    position: absolute;
-    left: 20px;
-    top: 599px;
-    width: 19px;
-    height: 16px;
-    z-index: 86;
-  }
-  
+@import url('css/layout/fonts.css');
+@import url('css/layout/base.css');
+@import url('css/layout/normalize.css');
+
+@import url('css/blocks/header.css');
+@import url('css/blocks/logo.css');
+@import url('css/blocks/contacts.css');
+@import url('css/blocks/banner.css');
+
+@import url('css/blocks/sidebar.css');
+@import url('css/blocks/menu.css');
+@import url('css/blocks/title.css');
+@import url('css/blocks/specific.css');
+@import url('css/blocks/news.css');
+@import url('css/blocks/footer.css');
+@import url('css/blocks/page.css');
+@import url('css/blocks/pagination.css');
+
+
+
+
+
+
+
+
+
+
+
+
+

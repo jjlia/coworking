@@ -1,0 +1,22 @@
+
+.logo {
+    /* position: absolute; */
+    top: 13px;
+    left: 19px;
+    flex: 1;
+    height: 51px;
+    width: 99px;
+}
+/* .logo:before {
+    content: "";
+    display: inline-block;
+    vertical-align: middle;
+    width: 99px;
+    height: 51px;
+    background: no-repeat center center;
+  
+}
+
+.logo__img--logo-fig:before {
+    background-image: url('/././images/logo-fig.png');
+} */

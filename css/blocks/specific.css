@@ -1,0 +1,46 @@
+.specific__list {
+    /* min-height: 316px;
+    min-width: 250px; */
+    display: flex;
+    /* text-align: center;
+    list-style: disc; */
+    width: 790px;
+    justify-content: space-around;
+}
+
+.specific__item {
+    flex: 1;
+    width: 250px;
+    text-align: center;
+    padding: 0 10px;
+   
+}
+
+.specific__icon {
+    margin: 0 0 32px;
+}
+
+.specific__icon:before {
+    content: "";
+    width: 72px;
+    height: 68px;
+    background-color: #27273e;
+    background: no-repeat center center;
+    display: block;
+    border-radius: 50%;
+    margin: auto;
+}
+
+.specific__list-check {
+    list-style-type: disc;
+    list-style-position: outside;
+}
+.specific__icon--11:before {
+    background-image: url(/././images/11.png);
+}
+.specific__icon--22:before {
+    background-image: url(/././images/22.png);
+}
+.specific__icon--33:before {
+    background-image: url(/././images/33.png);
+}

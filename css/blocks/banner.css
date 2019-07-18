@@ -1,0 +1,8 @@
+
+.banner {
+    min-height: 371px;
+    min-width: 1100px;
+    max-width: 100%;
+    background: #27273e;
+    align-self: end;
+}
