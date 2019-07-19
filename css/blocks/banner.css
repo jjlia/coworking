@@ -1,8 +1,14 @@
 
 .banner {
-    min-height: 371px;
-    min-width: 1100px;
-    max-width: 100%;
+    /* min-height: 371px; */
+    /* min-width: 1100px; */
+    /* max-width: 100%; */
     background: #27273e;
-    align-self: end;
+    /* align-self: end; */
+    margin-bottom: 62px;
+}
+
+.banner__image {
+    display: block;
+    max-width: 100%;
 }

@@ -1,7 +1,12 @@
-
 .header {
+    background-color: #27273e;
+}
+.header__container {
     background: #27273e;
     color: #fff;
-    margin-bottom: 38px;
+    /* margin-bottom: 38px; */
+    position: relative;
+    min-height: 77px;
+   
 }
 

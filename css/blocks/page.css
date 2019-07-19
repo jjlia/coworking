@@ -1,8 +1,10 @@
-.page {
-    width: 900px;
+.page-content {
+    width: 880px;
     /* position: absolute; */
     right: 19px;
     /* display: inline-block;
     vertical-align: top; */
     /* flex: 2; */
+    display: inline-block;
+    vertical-align: top;
 }

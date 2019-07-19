@@ -1,19 +1,23 @@
 .menu__item {
-    margin-bottom: 15px;
+    margin-bottom: 32px;
 }
 
 .menu__text {
+    font-family: 'GothamPro';
     font-size: 12px;
     font-weight: bold;
     letter-spacing: 2.4px;
     text-transform: uppercase;
     text-decoration: none;
-    display: block;
+    display: inline-block;
     color: #ec1e79;
 
 }
 
 .menu__text:hover {
+    color: #000;
+}
+.menu__text--active {
     color: #000;
 }
 
@@ -30,16 +34,19 @@
 .menu {
     top: 72px;
 }
+.menu__text--active.menu__text--icon--main:before {
+    background-image: url(/././images/menu/main-hover.png);
+}
 
 .menu__text--icon--main:before {
     background-image: url(/././images/menu/main.png);
 }
 
-.menu__text--icon--main:before:hover {
+.menu__text--icon--main:hover:before {
     background-image: url(/././images/menu/main-hover.png);
 }
 
-.menu__text--icon--feed:before:hover {
+.menu__text--icon--feed:hover:before {
     background-image: url(/././images/menu/feed-hover.png);
 }
 
@@ -52,6 +59,6 @@
     background-image: url(/././images/menu/wallet.png);
 }
 
-.menu__text--icon--wallet:before:hover {
+.menu__text--icon--wallet:hover:before {
     background-image: url(/././images/menu/wallet-hover.png);
 }

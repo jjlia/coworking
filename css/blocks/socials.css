@@ -1,20 +1,76 @@
-.socials__icon:before {
+
+.socials {
+    /* flex: 1 1 168px;
+    /* width: 168px; */
+    /*justify-content: flex-end; */
+    text-align: right;
+    height: 30px;
+    display: inline-block;
+    top: 0;
+    right: 0;
+    text-align: right;
+    vertical-align: top;
+    left:50%;
+    width: 60px;
+    
+}
+ 
+.socials__text {
+    color: #fff;
+    font-family: 'GothamPro';
+    font-weight: bold;
+    font-style: normal;
+    font-size: 14px;
+    
+   display: inline-block;
+   
+}
+
+.socials__icone, .socials__item {
+    display: inline-block;
     content: "";
+    width: 20px;
+    height: 20px;
+}   
+    /* vertical-align: top; */
+
+.socials-item--icon--vk {
+    background-image: url('/images/socials/vk.png');
+    background-position: center;
+    background-repeat: no-repeat;
     /* display: inline-block;
     vertical-align: middle; */
-    width: 20px;
-    height: 20px;
-    background: no-repeat center center;
-    margin-right: 10px;
+  }
+  .socials-item--icon--fb {
+    background-image: url('/images/socials/fb.png');
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .socials-item--icon--google {
+    background-image: url('/images/socials/google.png');
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .socials-item--icon--twitter {
+    background-image: url('/images/socials/twitter.png');
+    background-position: center;
+    background-repeat: no-repeat;
+  }
+  .socials-item--icon--mail {
+    background-image: url('/images/socials/mail.png');
+    background-position: center;
+    background-repeat: no-repeat;
+  }
 
-}
-
-.socials__icon--vk:before {
-    background-image: url(/././images/socials/vk.png);
-}
-.socials__item {
-    background-color: #d4d4d8;
-    width: 20px;
-    height: 20px;
+  .socials__item:hover {
+      background-color: #a0235f;
+  }
+  .socials__item {
+    overflow: hidden;
     border-radius: 50%;
-}
+    background-color: #d4d4d8;
+    margin-right: 8px;
+    }
+
+
+    

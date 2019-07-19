@@ -1,11 +1,11 @@
 
 .contacts {
-    /* position: absolute; */
-    top: 22px;
-    right: 19px;
+    position: absolute;
+    top: 19px;
+    right: 21px;
     text-align: right;
     font-style: normal;
-    flex: 1;
+    /* flex: 1; */
 }
 
 .contacts__phone {

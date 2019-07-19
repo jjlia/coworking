@@ -1,27 +1,86 @@
 .pagination {
-    flex: 1;
-    display: flex;
+    /* flex: 1; */
+    /* display: flex; */
     margin-bottom: 74px;
     justify-content: center;
+    display: inline-block;
+    width: 100%;
+    font-family: 'roboto';
+    font-size: 14px;
+    list-style: none;
 }
 
 .pagination__display {
-    flex: 1;
-    width: 103px;
+    /* flex: 1; */
+    width: 45%;
     text-align: right;
+    display: inline-block;
+    padding-right: 40px;
+    color: #656464;
+    padding-top: 7px;
 }
 
 .pagination__controlls {
-    flex: 1;
-    display: flex;
-    width: 201px;
+    /* flex: 1;
+    display: flex; */
+    width: 50%;
+    display: inline-block;
+    font-weight: 300;
+}
+.pagination__prev-item-link {
+    background-image: url(/././images/vector\ left.png);
+    width: 6px;
+    height: 10px;
+    margin-right: 11px;
+    background-repeat: no-repeat;
+    display: inline-block;
+}
+.pagination__next-item-link {
+    background-image: url(/././images/vector\ right.png);
+    width: 6px;
+    height: 10px;
+    margin-left: 11px;
+    background-repeat: no-repeat;
+    display: inline-block;
 }
 
 .pagination__pages-list {
-    display: flex;
-    flex: 1;
+    /* display: flex;
+    flex: 1; */
     text-align: left;
+    display: inline-block;
+    margin: 0;
+    padding: 0;
+    
 }
-.pagination__pages-item {
-    flex: 1;
+.pagination__pages-item { 
+    /* flex: 1; */
+    display: inline-block;
+    vertical-align: top;
+    width: 25px;
+    height: 25px;
+    font-weight: bold;
+    color: #221f1f;
+    line-height: 25px;
+    position: relative;
+    border-radius: 3px;
+   
+}
+/* .pagination__pages-item:first-child {
+    
+} */
+.pagination__pages-link {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    padding-left: 7px;
+}
+
+.pagination__pages-link--active {
+    color: #fff;
+    font-weight: bold;
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+    background-color: #27273e;
 }

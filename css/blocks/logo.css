@@ -1,11 +1,12 @@
 
 .logo {
-    /* position: absolute; */
+    position: absolute; 
     top: 13px;
-    left: 19px;
-    flex: 1;
-    height: 51px;
-    width: 99px;
+    right: 19px;
+    /* flex: 1; */
+    /* height: 51px; */
+    min-width: 99px;
+    /* margin-top: 13px;  */
 }
 /* .logo:before {
     content: "";
