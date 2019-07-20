@@ -1,76 +1,67 @@
 
 .socials {
     /* flex: 1 1 168px;
-    /* width: 168px; */
     /*justify-content: flex-end; */
-    text-align: right;
-    height: 30px;
-    display: inline-block;
-    top: 0;
-    right: 0;
-    text-align: right;
-    vertical-align: top;
-    left:50%;
-    width: 60px;
+    /* text-align: right; */
+    /* position: absolute;  */
+    /* bottom: 19px;
+    right: 21px; */
     
+    width: 33%;
+    /* height: 44px; */
+    display: inline-block;
+   
 }
- 
 .socials__text {
     color: #fff;
     font-family: 'GothamPro';
     font-weight: bold;
     font-style: normal;
     font-size: 14px;
-    
-   display: inline-block;
-   
-}
-
-.socials__icone, .socials__item {
     display: inline-block;
-    content: "";
-    width: 20px;
-    height: 20px;
+    text-align: right;
+}
+/* 
+.socials__list {
+  
+  display: inline-block;
+} */
+
+.socials__icone {
+    display: inline-block; 
+    vertical-align: middle; 
 }   
-    /* vertical-align: top; */
 
 .socials-item--icon--vk {
     background-image: url('/images/socials/vk.png');
-    background-position: center;
-    background-repeat: no-repeat;
-    /* display: inline-block;
-    vertical-align: middle; */
   }
   .socials-item--icon--fb {
     background-image: url('/images/socials/fb.png');
-    background-position: center;
-    background-repeat: no-repeat;
   }
   .socials-item--icon--google {
     background-image: url('/images/socials/google.png');
-    background-position: center;
-    background-repeat: no-repeat;
   }
   .socials-item--icon--twitter {
     background-image: url('/images/socials/twitter.png');
-    background-position: center;
-    background-repeat: no-repeat;
   }
   .socials-item--icon--mail {
     background-image: url('/images/socials/mail.png');
-    background-position: center;
-    background-repeat: no-repeat;
   }
 
-  .socials__item:hover {
-      background-color: #a0235f;
+.socials__item {
+  /* content: ""; */
+  overflow: hidden;
+  border-radius: 50%;
+  background-color: #d4d4d8;
+  margin-right: 8px;
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+  vertical-align: top;
   }
-  .socials__item {
-    overflow: hidden;
-    border-radius: 50%;
-    background-color: #d4d4d8;
-    margin-right: 8px;
-    }
-
+    
+.socials__item:hover {
+  background-color: #a0235f;
+}
 
     

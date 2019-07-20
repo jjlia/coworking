@@ -2,7 +2,7 @@
 .logo {
     position: absolute; 
     top: 13px;
-    right: 19px;
+    left: 19px;
     /* flex: 1; */
     /* height: 51px; */
     min-width: 99px;

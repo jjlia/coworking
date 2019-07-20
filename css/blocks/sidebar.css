@@ -2,8 +2,6 @@
 .sidebar {
     left: 19px;
     width: 200px;
-    /* display: inline-block;
-    vertical-align: top; */
     /* flex: 1; */
     display: inline-block;
     vertical-align: top;

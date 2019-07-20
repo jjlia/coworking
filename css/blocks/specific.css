@@ -1,5 +1,5 @@
 .specific {
-    display: inline-block;
+    
     vertical-align: top;
     width: 100%;
     margin-bottom: 90px;
@@ -12,7 +12,7 @@
     /* text-align: center;
     list-style: disc; */
     font-family: 'Gotham Pro';
-    width: 100%;
+
     display: inline-block;
     vertical-align: top;
     /* justify-content: space-around; */
@@ -20,9 +20,9 @@
 
 .specific__item {
     /* flex: 1; */
-    max-width: 250px;
+    max-width: 32%;
     text-align: center;
-    margin: 0 20px;
+    margin: 0;
     display: inline-block;
     vertical-align: middle;
 }
@@ -56,7 +56,7 @@
     
   }
   
-  .specific__text, .specific__list-check {
+  .specific__text {
     font-size: 18px;
     line-height: 30px;
     text-align: center;
@@ -68,7 +68,6 @@
     list-style-type: disc;
     text-align: left;
     line-height: 30px;
-    margin-left: 20px;
     margin-top: 7px;
     padding-inline-start: 0;
   }
