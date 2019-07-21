@@ -42,7 +42,7 @@
    
 }
 .specific__icon-img {
-    transform: translate(0, 40%);
+    margin: 18px;
 }
 
 .specific__title {

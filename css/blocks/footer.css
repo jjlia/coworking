@@ -5,8 +5,10 @@
     margin-top: -77px;
     background-color: #27273e;
     color: #fff;
-    
-  
+}
+
+.container__footer {
+    padding-top: 12px;
 }
 
 .footer__text {
@@ -19,17 +21,13 @@
     font-family: 'Gotham Pro';
     display: inline-block;
     vertical-align: top;
-    /* width: 33%; */
+    margin: 0;
 }
 
 .footer__logo {
-    /* left: 499px;
-    width: 99px; */
     height: 51px;
-    margin-top: 12px;
     vertical-align: middle;
     display: inline-block;
     width: 650px;
     text-align: center;
-
 }

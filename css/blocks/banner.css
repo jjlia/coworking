@@ -10,6 +10,8 @@
 
 .banner__image {
     display: block;
-    max-width: 100%;
-    transform: translate(11%, 0);
+    /* max-width: 100%;
+    transform: translate(11%, 0); */
+    margin-right: 0;
+    margin-left: 121px;
 }

@@ -1,10 +1,11 @@
 .news__list {
     font-family: 'Roboto';
+    
 }
 
 .news__item {
     /* display: flex; */
-    margin-bottom: 61px;
+    margin-bottom: 49px;
     display: inline-block;
     width: 100%;
 }

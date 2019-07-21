@@ -50,7 +50,7 @@ ul {
     padding: 0;
 }
 
-ul li {
+ul>li {
     list-style: none;
 }
 
@@ -76,4 +76,9 @@ table {
 
 h3 {
     text-transform: uppercase;
+}
+
+.page {
+    display: inline-block;
+    vertical-align: top;
 }

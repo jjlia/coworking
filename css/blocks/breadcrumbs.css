@@ -1,0 +1,21 @@
+.breadcrumbs__link, .breadcrumbs__item {
+    display: inline-block;
+    vertical-align: middle;
+}
+.breadcrumbs__item:after {
+    content: "/";
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.breadcrumbs__item:last-child:after {
+    display: none;
+}
+
+.breadcrumbs__item {
+    font-size: 14px;
+    font-weight: 400;
+    font-family: 'Gotham Pro';
+    color: #ec1e79;
+    text-decoration: underline;
+}
