@@ -43,23 +43,23 @@
   }
 
 .network-icon--vk {
-    background: url('images/socials/vk.png') no-repeat center center;
+    background: url('/images/socials/vk.png') no-repeat center center;
     background-color: #d4d4d8; 
   }
 .network-icon--fb {
-    background: url('images/socials/fb.png') no-repeat center center;
+    background: url('/images/socials/fb.png') no-repeat center center;
     background-color: #d4d4d8;
   }
 .network-icon--google {
-    background: url('images/socials/google.png') no-repeat center center;
+    background: url('/images/socials/google.png') no-repeat center center;
     background-color: #d4d4d8;
   }
 .network-icon--twitter { 
-    background: url('images/socials/twitter.png') no-repeat center center;
+    background: url('/images/socials/twitter.png') no-repeat center center;
     background-color: #d4d4d8;
   }
 .network-icon--mail {
-    background: url('images/socials/mail.png') no-repeat center center;
+    background: url('/images/socials/mail.png') no-repeat center center;
     background-color: #d4d4d8;
     
   }
