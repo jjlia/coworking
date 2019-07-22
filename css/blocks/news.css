@@ -14,7 +14,7 @@
     margin-bottom: 0;
 }
 
-.ellipse {
+.news__ellipse, .comments__ellipse {
     overflow: hidden;
     border-radius: 50%;
     display: inline-block;

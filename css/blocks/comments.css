@@ -1,0 +1,13 @@
+.comments__list {
+    display: flex;
+}
+
+.comments__item {
+    display: flex;
+    margin-bottom: 20px;
+}
+
+.comments__pic {
+    overflow: hidden;
+    border-radius: 50%
+}

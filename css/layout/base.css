@@ -28,6 +28,7 @@ html body {
     height: auto !important;
     position: relative;
     overflow: hidden;
+    margin-bottom: 65px;
 }
 
 .wrapper__content:after {
@@ -43,6 +44,7 @@ html body {
     height: 100%;
     /* justify-content: space-around; */
     /* display: inline-block; */
+    margin-bottom: 32px;
 }
 
 ul {
@@ -81,7 +83,4 @@ h3 {
 .page {
     display: inline-block;
     vertical-align: top;
-}
-.page-content {
-    margin-bottom: 40px;
 }

@@ -2,7 +2,7 @@
     
     vertical-align: top;
     width: 100%;
-    margin-bottom: 36px;   
+    /* margin-bottom: 36px;    */
 }
 
 .specific__list {
@@ -39,10 +39,14 @@
     margin-bottom: 22px;
     display: inline-block;
     vertical-align: middle;
+    position: relative;
    
 }
 .specific__icon-img {
-    margin: 19px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
 
 .specific__title {

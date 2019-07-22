@@ -14,8 +14,18 @@
 
 .breadcrumbs__item {
     font-size: 14px;
-    font-weight: 400;
-    font-family: 'Gotham Pro';
+    
+}
+
+
+.breadcrumbs__link {
+    font-style: italic;
     color: #ec1e79;
     text-decoration: underline;
+
+}
+
+.breadcrumbs__link--unactive {
+    color: #000;
+    text-decoration: none;
 }
