@@ -40,30 +40,30 @@
     top: 72px;
 }
 .menu__text--active.menu__text--icon--main:before {
-    background-image: url('.images/main-hover.png');
+    background-image: url('./images/main-hover.png');
 }
 
 .menu__text--icon--main:before {
-    background-image: url('.images/main.png');
+    background-image: url('./images/main.png');
 }
 
 .menu__text--icon--main:hover:before {
-    background-image: url('.images/main-hover.png');
+    background-image: url('./images/main-hover.png');
 }
 
 .menu__text--icon--feed:hover:before {
-    background-image: url('.images/feed-hover.png');
+    background-image: url('./images/feed-hover.png');
 }
 
 
 .menu__text--icon--feed:before {
-    background-image: url('.images/feed.png');
+    background-image: url('./images/feed.png');
 }
 
 .menu__text--icon--wallet:before {
-    background-image: url('.images/wallet.png');
+    background-image: url('./images/wallet.png');
 }
 
 .menu__text--icon--wallet:hover:before {
-    background-image: url('.images/wallet-hover.png');
+    background-image: url('./images/wallet-hover.png');
 }
