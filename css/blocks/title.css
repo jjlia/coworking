@@ -1,8 +1,7 @@
 
-.section__title {
+.specific__title-had, .news__title-had {
     font-size: 49px;
     font-weight: 700;
     font-family: 'Gotham Pro';
     margin: 0 0 60px;
-    
 }

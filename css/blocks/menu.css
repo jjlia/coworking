@@ -1,5 +1,5 @@
 .menu__item {
-    margin-bottom: 32px;
+    margin-bottom: 29px;
 }
 
 .menu__item:last-child {
@@ -7,10 +7,10 @@
 }
 
 .menu__text {
-    font-family: 'GothamPro';
+    font-family: 'Gotham Pro';
     font-size: 12px;
     font-weight: bold;
-    letter-spacing: 2.4px;
+    letter-spacing: 1.4px;
     text-transform: uppercase;
     text-decoration: none;
     display: inline-block;
@@ -33,7 +33,7 @@
     width: 24px;
     height: 18px;
     background: no-repeat center center;
-    margin-right: 20px;
+    margin-right: 14px;
 }
 
 .menu {
