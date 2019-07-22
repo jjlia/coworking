@@ -30,7 +30,7 @@
     vertical-align: top;
 }
 .pagination__prev-item-link {
-    background-image: url('./images/vector-left.png');
+    background-image: url('../../images/vector-left.png');
     width: 6px;
     height: 10px;
     margin-right: 11px;
@@ -39,7 +39,7 @@
     vertical-align: middle;
 }
 .pagination__next-item-link {
-    background-image: url('./images/vector-right.png');
+    background-image: url('../../images/vector-right.png');
     width: 6px;
     height: 10px;
     margin-left: 11px;
