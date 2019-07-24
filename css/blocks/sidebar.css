@@ -1,0 +1,10 @@
+
+.sidebar {
+    padding-left: 17px;
+    width: 200px;
+    /* flex: 1; */
+    display: inline-block;
+    vertical-align: top;
+    padding-top: 17px;
+    }
+

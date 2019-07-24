@@ -1,0 +1,15 @@
+.page-content {
+    width: 880px;
+    /* position: absolute; */
+    
+    /* display: inline-block;
+    vertical-align: top; */
+    /* flex: 2; */
+    display: inline-block;
+    vertical-align: top;
+}
+
+.page {
+    display: inline-block;
+    vertical-align: top;
+}

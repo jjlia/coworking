@@ -1,0 +1,39 @@
+
+.banner {
+    /* min-height: 371px; */
+    /* min-width: 1100px; */
+    /* max-width: 100%; */
+    background-color: #27273e;
+    position: relative;
+    margin-bottom: 47px;
+    
+}
+
+.banner__container {
+    min-height: 174px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px;
+}
+
+.banner__image {
+    display: block;
+    max-width: 100%;
+    position: relative;
+}
+.banner__text {
+    color: #ffffff;
+    font-family: 'Gotham Pro';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+    width: 39%;
+    position: absolute;
+}
+.banner__text-discount {
+
+    color: #ec1e79;
+    font-family: "Gotham Pro";
+    font-weight: 700;
+}

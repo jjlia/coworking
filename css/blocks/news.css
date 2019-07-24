@@ -1,0 +1,57 @@
+
+
+.news__list {
+    font-family: 'Roboto';
+    
+}
+
+.news__item {
+    /* display: flex; */
+    margin-bottom: 20px;
+    display: inline-block;
+    width: 100%;
+}
+
+
+.news__ellipse {
+    overflow: hidden;
+    border-radius: 50%;
+    display: inline-block;
+    width: 160px;
+    height: 160px;
+    margin-right: 5px;   
+}
+.news__pic {
+    display: block;
+    max-width: 100%;
+    
+
+}
+
+/* .news__desc {
+    /* display: flex;
+    flex-flow: column nowrap; */
+
+
+.news__desc {
+    width: 687px;
+    /* flex: 1; */
+    display: inline-block;
+    font-family: 'Roboto';
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 30px;
+}
+
+
+.news__data {
+    font-size: 14px;
+    line-height: 1.5;
+    color: #656464;
+}
+
+.news__title {
+    text-align: left;
+    margin-top: 2px;
+    font-weight: 600;
+}
