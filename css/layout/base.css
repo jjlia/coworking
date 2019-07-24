@@ -44,7 +44,7 @@ html body {
     height: 100%;
     /* justify-content: space-around; */
     /* display: inline-block; */
-    margin-bottom: 32px;
+    
 }
 
 ul {
@@ -79,8 +79,8 @@ table {
 h3 {
     text-transform: uppercase;
 }
-
-.page {
-    display: inline-block;
-    vertical-align: top;
+p {
+    padding: 0;
+    margin: 0;
 }
+

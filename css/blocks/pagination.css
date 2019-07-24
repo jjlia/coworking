@@ -2,7 +2,7 @@
     /* flex: 1; */
     /* display: flex; */
     
-    justify-content: center;
+    /* justify-content: center; */
     display: inline-block;
     width: 100%;
     font-family: 'roboto';
@@ -45,6 +45,7 @@
     margin-left: 11px;
     background-repeat: no-repeat;
     display: inline-block;
+    vertical-align: middle;
 }
 
 .pagination__pages-list {

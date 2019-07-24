@@ -1,13 +1,56 @@
+.comments {
+    text-align: center;
+}
+
 .comments__list {
-    display: flex;
+    color: #221f1f;
+    font-family: "Gotham Pro";
+    font-size: 18px;
+    font-weight: 300;
+
 }
 
 .comments__item {
     display: flex;
     margin-bottom: 20px;
+    justify-content: flex-start;
 }
 
 .comments__pic {
-    overflow: hidden;
-    border-radius: 50%
+    max-width: 100%;
+    display: block;
 }
+ .comments__avatar {
+    overflow: hidden;
+    border-radius: 50%;
+    width: 160px;
+    flex: 1;
+    position: relative;
+    background-color: #f5f5f5;
+ }
+ .comments__ellipse-user {
+     margin-right: 20px;
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     height: 160px;
+     width: 160px;
+     border-radius: 50%;
+     
+ }
+ .comments__desc {
+     display: flex;
+     flex-flow: column;
+     text-align: start;
+
+ }
+ .comments__data {
+     text-align: start;
+     font-size: 14px;
+    line-height: 1.5;
+    color: #656464
+ }
+ .comments__text {
+    font-weight: 300;
+    line-height: 30px;
+ }
