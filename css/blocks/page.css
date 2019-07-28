@@ -1,15 +1,11 @@
-.page-content {
-    width: 880px;
-    /* position: absolute; */
-    
-    /* display: inline-block;
-    vertical-align: top; */
-    /* flex: 2; */
-    display: inline-block;
-    vertical-align: top;
+.maincontent__container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
 }
 
 .page {
-    display: inline-block;
-    vertical-align: top;
+    width: 83%;
+   
 }
+

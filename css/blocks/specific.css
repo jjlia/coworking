@@ -1,54 +1,55 @@
 .specific {
-    
-    vertical-align: top;
     width: 100%;
-    /* margin-bottom: 36px;    */
+    display: flex;
+    justify-content: space-between;
+    min-height: 374px;
+}
+
+.specific__block {
+    display: flex;
+    flex-flow: column;
 }
 
 .specific__list {
     min-width: 250px; 
-    /* display: flex; */
-    /* text-align: center;
-    list-style: disc; */
+    display: flex;
+    text-align: center;
+    list-style: disc; 
     font-family: 'Gotham Pro';
     
-    display: inline-block;
-    vertical-align: top;
-    /* justify-content: space-around; */
+    justify-content: space-around;
 }
 
 .specific__item {
-    /* flex: 1; */
-    max-width: 250px;
     text-align: center;
-    margin: 0;
-    display: inline-block;
-    vertical-align: middle;
+    max-width: 250px;
+    margin-right: 40px;
 }
 
-.specific__icon {
+.specific__title {
+    margin-bottom: 63px;
+}
+
+.specifics__icon {
     background-color: #27273e;
     overflow: hidden;
     border-radius: 50%;
     width: 65px;
     height: 65px;
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
-    margin-bottom: 22px;
+    margin-bottom: 30px;
     display: inline-block;
     vertical-align: middle;
     position: relative;
    
 }
-.specific__icon-img {
+.specifics__icon-img {
     position: absolute;
     left: 50%;
     top: 50%;
     transform: translate(-50%, -50%);
 }
 
-.specific__title {
+.specifics__title {
     font-size: 11px;
     font-weight: 900;
     line-height: 19.38px;
@@ -56,30 +57,33 @@
     text-align: center;
     color: #212121;
     text-transform: uppercase;
-    
+    margin-bottom: 20px;
   }
   
-  .specific__text {
+  .specifics__text {
     font-size: 18px;
     line-height: 30px;
     text-align: center;
-    padding: 0 20px;
     font-weight: 300;
     margin-bottom: 2px;
     
   }
-  .specific__list-check {
+  .specifics__list-check {
     list-style-type: disc;
     text-align: left;
-    line-height: 30px;
+    line-height: 35px;
     font-size: 18px;
     padding-inline-start: 0;
-    padding-left: 28px;
+    padding-left: 24px;
   }
-  .specific__list-item:before {
+
+
+  .specifics__list-item:before {
       color: rgb(236, 30, 121);
       content: "•";
       padding-right: 31px;
 
   }
-  
+  .specific__list-item {
+      margin-bottom: 20px;
+  }

@@ -1,10 +1,6 @@
 
 .sidebar {
-    padding-left: 17px;
-    width: 200px;
+    width: 17%;
     /* flex: 1; */
-    display: inline-block;
-    vertical-align: top;
-    padding-top: 17px;
     }
 

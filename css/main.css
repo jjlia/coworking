@@ -16,8 +16,10 @@
 @import url('blocks/pagination.css');
 @import url('blocks/network.css');
 @import url('blocks/breadcrumbs.css');
-@import url('blocks/comments.css')
-
+@import url('blocks/comments.css');
+@import url('blocks/tariffs.css');
+@import url('blocks/form.css');
+@import url('blocks/partners.css');
 
 
 
