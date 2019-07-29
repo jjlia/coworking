@@ -92,6 +92,10 @@
     margin-right: 15px;
 }
 
+.tariffs__item:nth-child(3n) {
+  margin-right: 0;
+}
+
 .tariffs__text {
     font-family: "Gotham Pro";
 font-size: 14px;
