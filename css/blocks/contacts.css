@@ -2,7 +2,10 @@
 .contacts {
     text-align: right;
     font-style: normal;
-    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    position: relative;
 }
 
 .contacts__phone {
@@ -12,9 +15,5 @@
     font-weight: bold;
 }
 
-.contacts__schedule {
-    color: rgba(236, 30, 121, 0.7);
-    font-size: 14px;
-    font-weight: bold;
-    text-decoration: underline;
-}
+
+
