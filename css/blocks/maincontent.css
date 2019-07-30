@@ -1,0 +1,10 @@
+.maincontent__container {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 70px;
+}
+
+
+.maincontent {
+    padding-top: 44px;
+}

@@ -1,14 +1,15 @@
  
 
 .footer {
-    height: 77px;
-    margin-top: -77px;
     background-color: #27273e;
     color: #fff;
 }
 
 .footer__container {
     padding-top: 12px;
+    display: flex;
+    justify-content: space-between;
+    min-height: 77px;
 }
 
 .footer__text {
@@ -17,17 +18,11 @@
     /* justify-content: flex-start; */
     text-align: left;
     font-size: 14px;
-    line-height: 20px;
+    line-height: 16px;
     font-family: 'Gotham Pro';
-    display: inline-block;
-    vertical-align: top;
     margin: 0;
 }
 
 .footer__logo {
-    height: 51px;
-    vertical-align: middle;
-    display: inline-block;
-    width: 650px;
-    text-align: center;
+    margin-right: 92px;
 }

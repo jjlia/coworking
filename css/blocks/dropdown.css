@@ -1,0 +1,89 @@
+.dropdown__schedule {
+    color: rgba(236, 30, 121, 0.7);
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.dropdown {
+    cursor: pointer;
+    display: inline;
+    font-family: "Gotham Pro";
+}
+
+.dropdown__schedule:hover {
+    color: #fff;
+    cursor: pointer;
+}
+
+.dropdown:hover .dropdown__menu {
+    top: 121%;
+    left: 19%;
+    opacity: .9;
+}
+
+.dropdown__menu {
+    background-color: #fff;
+    width: 162px;
+    height: 70px;
+    box-shadow: 0 0 10px 0 #ccc;
+    border-radius: 5px 0 5px 5px;
+    position: absolute;
+    left: -9999px;
+    opacity: 0;
+    transition: opacity 2s;
+    padding: 10px 0;
+    z-index: 10;
+}
+
+.dropdown__menu::before {
+    content: "";
+    display: block;
+    height: 15px;
+    left: 0;
+    right: 0;
+    top: -14px;
+    position: absolute;
+    z-index: 10;
+}
+
+.dropdown__item {
+    
+    font-size: 14px;
+    font-weight: 300;
+    text-align: left;
+    color: #000;
+    line-height: 18px;
+    padding: 12px 15px 2px;
+}
+
+.dropdown__item-day {
+    font-weight: 700;
+    color: #ec1e79;
+}
+.dropdown__triangle {
+    width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid transparent;
+    position: absolute;
+    top: -10px;
+    left: 140px;
+}
+
+.dropdown__triangle:before {
+    content: "";
+    display: block;
+    width: 0;
+    height: 0;
+    border-top: 0px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid white;
+    border-left: 10px solid transparent;
+    position: absolute;
+    top: 1px;
+    left: -10px;
+}

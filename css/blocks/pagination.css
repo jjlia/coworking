@@ -1,36 +1,34 @@
 .pagination {
-    /* flex: 1; */
-    /* display: flex; */
     
-    /* justify-content: center; */
-    display: inline-block;
-    width: 100%;
-    font-family: 'roboto';
-    font-size: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    /* width: 100%; */
     list-style: none;
 }
 
 .pagination__display {
-    /* flex: 1; */
-    width: 45%;
+    /* display: flex; */
+    font-family: 'Gotham Pro';
+    font-size: 14px;
     text-align: right;
     display: inline-block;
-    padding-right: 40px;
+    margin-right: 40px;
     color: #656464;
     padding-top: 7px;
-    vertical-align: bottom;
+    /* vertical-align: bottom; */
 }
 
 .pagination__controlls {
-    /* flex: 1;
-    display: flex; */
-    width: 50%;
-    display: inline-block;
+    
+    display: flex;
+    /* width: 50%; */
+    align-items: center;
     font-weight: 300;
-    vertical-align: top;
+    
 }
 .pagination__prev-item-link {
-    background-image: url('../../images/vector-left.png');
+    background-image: url('../../images/menu/vector-left.png');
     width: 6px;
     height: 10px;
     margin-right: 11px;
@@ -39,7 +37,7 @@
     vertical-align: middle;
 }
 .pagination__next-item-link {
-    background-image: url('../../images/vector-right.png');
+    background-image: url('../../images/menu/vector-right.png');
     width: 6px;
     height: 10px;
     margin-left: 11px;
@@ -49,25 +47,23 @@
 }
 
 .pagination__pages-list {
-    /* display: flex;
-    flex: 1; */
-    text-align: left;
-    display: inline-block;
+    display: flex;
+    /* text-align: left; */
+    /* display: inline-block; */
     margin: 0;
     padding: 0;
     
 }
 .pagination__pages-item { 
-    /* flex: 1; */
-    display: inline-block;
-    vertical-align: top;
-    width: 25px;
-    height: 25px;
-    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    /* width: 25px;
+    height: 25px; */
+    /* font-weight: bold;
     color: #221f1f;
     line-height: 25px;
-    position: relative;
-    border-radius: 3px;
+    /* position: relative; */
+    /* border-radius: 3px; */ 
    
 }
 /* .pagination__pages-item:first-child {
@@ -76,12 +72,15 @@
 .pagination__pages-link {
     color: #000;
     text-decoration: none;
-    display: block;
-    padding-left: 8px;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    font-family: 'Roboto';
+    width: 25px;
+    height: 25px;
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 3px;
+    
 }
 
 .pagination__pages-link--active {

@@ -3,7 +3,7 @@
 }
 
 
-html body {
+html, body {
     margin: 0;
     padding: 0;
     font: 16px/1.42 'Gotham Pro', 'Roboto', 'OpenSans', Arial, Helvetica, sans-serif;
@@ -14,37 +14,10 @@ html body {
 
 }
 
-.wrapper {
-    overflow: hidden;
-    min-width: 1100px;
-    height: 100%;
-    /* display: flex;
-    flex-direction: column;  */
-}
-
-.wrapper__content {
-    /* flex: 1; */
-    min-height: 100%;
-    height: auto !important;
-    position: relative;
-    overflow: hidden;
-    margin-bottom: 65px;
-}
-
-.wrapper__content:after {
-    content: "";
-    height: 77px;
-    display: block;
-}
 
 .container {
     margin: 0 auto;
-    width: 1100px;
-    /* display: flex; */
-    height: 100%;
-    /* justify-content: space-around; */
-    /* display: inline-block; */
-    
+    width: 1063px;
 }
 
 ul {
@@ -84,3 +57,11 @@ p {
     margin: 0;
 }
 
+img {
+    max-width: 100%;
+    object-fit: cover;
+}
+
+a {
+    color: #fff;
+}
