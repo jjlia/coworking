@@ -13,7 +13,7 @@
     font-size: 14px;
     text-align: right;
     display: inline-block;
-    padding-right: 40px;
+    margin-right: 40px;
     color: #656464;
     padding-top: 7px;
     /* vertical-align: bottom; */
@@ -25,7 +25,7 @@
     /* width: 50%; */
     align-items: center;
     font-weight: 300;
-    margin-left: 21px;
+    
 }
 .pagination__prev-item-link {
     background-image: url('../../images/menu/vector-left.png');
