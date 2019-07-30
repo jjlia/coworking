@@ -1,11 +1,11 @@
-.specific {
+.specific__block {
     width: 100%;
     display: flex;
     justify-content: space-between;
     min-height: 374px;
 }
 
-.specific__block {
+.specific {
     display: flex;
     flex-flow: column;
 }

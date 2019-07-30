@@ -1,7 +1,6 @@
 
 .banner {
     background-color: #27273e;
-    position: relative;
     margin-bottom: 69px;
     
 }
@@ -15,7 +14,6 @@
 .banner__image {
     display: block;
     max-width: 100%;
-    position: relative;
 }
 .banner__text {
     color: #ffffff;

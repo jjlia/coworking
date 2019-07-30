@@ -7,48 +7,55 @@
 }
 
 .dropdown {
-    position: relative;
-    display: inline-block;
+    cursor: pointer;
+    display: inline;
+    font-family: "Gotham Pro";
 }
 
-.dropdown:hover .dropdown__schedule {
+.dropdown__schedule:hover {
     color: #fff;
+    cursor: pointer;
 }
 
 .dropdown:hover .dropdown__menu {
-    left: 0;
-    opacity: 1;
-    display: block;
+    top: 121%;
+    left: 19%;
+    opacity: .9;
 }
 
 .dropdown__menu {
+    background-color: #fff;
+    width: 162px;
+    height: 70px;
+    box-shadow: 0 0 10px 0 #ccc;
+    border-radius: 5px 0 5px 5px;
     position: absolute;
-    background: #fff;
-    border-radius: 5px;
-    padding: 28px 11px 18px;
-    width: 163px;
-    top: 100%;
-    margin-top: 20px;
     left: -9999px;
     opacity: 0;
-    transition: opacity .4s;
+    transition: opacity 2s;
+    padding: 10px 0;
+    z-index: 10;
 }
 
 .dropdown__menu::before {
     content: "";
     display: block;
-    height: 30px;
+    height: 15px;
     left: 0;
     right: 0;
-    top: -29px;
+    top: -14px;
     position: absolute;
+    z-index: 10;
 }
 
 .dropdown__item {
-    font-family: "Gotham Pro";
+    
     font-size: 14px;
     font-weight: 300;
+    text-align: left;
+    color: #000;
     line-height: 18px;
+    padding: 12px 15px 2px;
 }
 
 .dropdown__item-day {

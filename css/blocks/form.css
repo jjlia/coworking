@@ -1,13 +1,13 @@
-.form-section {
+.form {
     display: flex;
     justify-content: center;
 }
 
-.content__iner {
+.form__desc {
     padding: 0 18%;
 }
 
-.form {
+.form__elem {
     background: #f5f5f5;
     border-radius: 3px;
     padding: 50px 8%;

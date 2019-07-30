@@ -22,50 +22,65 @@
   padding: 0;
   margin: 0;
 }
-
-.network__icon, .network__item  {
-    /* content: ""; */
-    display: inline-block; 
-    vertical-align: top;
-    width: 20px;
-    height: 20px;
-    text-align: left; 
+.network__item {
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: inline-block;
+  background-color: #d4d4d8;
+  vertical-align: top;
+  position: relative;
 }
 
-.network__icon {
-  /* overflow: hidden; */
-  border-radius: 50%;
-  position: relative;
+.network__icon:after {
+  content: "";
+  position: absolute;
+  /* top: 6px;
+  left: 4px; */
+  display: inline-block;
+  vertical-align: top;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  background: url('../../images/sprites.png') no-repeat center center;
   }
 
 .network__icon:hover {
   background-color: #a0235f;
   }
 
-.network-icon--vk {
-    background: url('../../images/socials/vk.png') no-repeat center center;
-    background-color: #d4d4d8; 
+.network-icon--vk:after {
+    background-position: -157px -97px;
+    width: 12px;
+    height: 7px; 
   }
-.network-icon--fb {
-    background: url('../../images/socials/fb.png') no-repeat center center;
-    background-color: #d4d4d8;
+.network-icon--fb:after {
+    background-position: -129px -62px;
+    width: 6px;
+    height: 13px;
   }
-.network-icon--google {
-    background: url('../../images/socials/google.png') no-repeat center center;
-    background-color: #d4d4d8;
+.network-icon--google:after {
+    background-position: -157px -10px;
+    width: 15px;
+    height: 9px;
   }
-.network-icon--twitter { 
-    background: url('../../images/socials/twitter.png') no-repeat center center;
-    background-color: #d4d4d8;
+.network-icon--twitter:after { 
+    background-position: -157px -68px;
+    width: 11px;
+    height: 9px;
   }
-.network-icon--mail {
-    background: url('../../images/socials/mail.png') no-repeat center center;
-    background-color: #d4d4d8;
+.network-icon--mail:after {
+    background-position: -157px -39px;
+    width: 12px;
+    height: 9px;
     
   }
   .network__item {
-    margin-right: 8px;
-    
+    margin-right: 8px; 
+  }
+  .network__item:last-child {
+    margin-right: 0;
   }
 
 

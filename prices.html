@@ -23,7 +23,16 @@
                     </a>
                     <address class="contacts">
                         <a href="tel:+78000039210" class="contacts__phone">8 (800) 00-392-10</a>
-                        <div class="contacts__schedule">График работы</div>
+                        <div class="dropdown">
+                                <div class="dropdown__schedule">График работы</div>
+                                <div class="dropdown__menu">
+                                    <ul class="dropdown__list">
+                                        <li class="dropdown__item-day">пн-вс: 09:00-20:00</li>
+                                        <li class="dropdown__item">обед: 14:00-14:30</li>
+                                        <div class="dropdown__triangle"></div>
+                                    </ul>
+                                </div>
+                            </div>
                     </address>
                 </div>
             </header>
@@ -34,37 +43,26 @@
                 <div class="container maincontent__container">
 
                     <aside class="sidebar">
-                        <nav class="menu">
-                            <ul class="menu__list">
-                                <li class="menu__item">
-                                    <a href="worcadium.html" class="menu__text menu__text--icon--main">Главная</a>
-                                </li>
-                                <li class="menu__item">
-                                    <a href="comments.html" class="menu__text menu__text--icon--feed">Отзывы</a>
-                                </li>
-                                <li class="menu__item">
-                                    <a href="prices.html"
-                                        class="menu__text menu__text--active menu__text--icon--wallet">Тарифы</a>
-                                </li>
-                            </ul>
-                        </nav>
+                            <nav class="menu">
+                                    <ul class="menu__list">
+                                      <li class="menu__item"><a class="menu__link" href="worcadium.html">
+                                          <div class="menu__icon menu__icon_main"></div>
+                                          <div class="menu__text">Главная</div>
+                                        </a></li>
+                                      <li class="menu__item"><a class="menu__link" href="comments.html">
+                                          <div class="menu__icon menu__icon_feed"></div>
+                                          <div class="menu__text">Отзывы</div>
+                                        </a></li>
+                                      <li class="menu__item"><a class="active menu__link" href="prices.html">
+                                          <div class="menu__icon menu__icon_wallet"></div>
+                                          <div class="menu__text">Тарифы</div>
+                                        </a></li>
+                                    </ul>
+                            </nav>
                     </aside>
-                    <div class="page">
-                        <nav class="breadcrumbs">
-                            <ul class="breadcrumbs__list">
-                                <li class="breadcrumbs__item">
-                                    <a href="worcadium.html" class="breadcrumbs__link">Главная</a>
-                                </li>
-                                <li class="breadcrumbs__item">
-                                    <a href="comments.html" class="breadcrumbs__link">Отзывы</a>
-                                </li>
-                                <li class="breadcrumbs__item">
-                                    <a href="prices.html" class="breadcrumbs__link--unactive">Тарифы</a>
-                                </li>
-                            </ul>
-
-                        </nav>
-                        <main class="page-content">
+                    <div class="page page__inner">
+                            
+                        <main class="page">
 
                             <section class="tariffs">
                                 <!-- <div class="container"> -->
@@ -201,10 +199,10 @@
                                 </ul>
                                 <!-- </div> -->
                             </section>
-                            <section class="partners__section">
+                            <section class="partners">
                                 <div class="container partners__container">
                                     <h1 class="partners__title">Партнёры</h1>
-                                    <div class="partners">
+                                    <div class="partners__desc">
                                         <ul class="partners__list">
                                             <li class="partners__item">
                                                <div class="partners__logo">
