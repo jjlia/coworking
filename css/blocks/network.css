@@ -3,16 +3,17 @@
   display: flex;
   flex-direction: column;
   padding-top: 5px;
+  align-items: center;
 }
 .network__text {
-    color: #fff;
+    color: #221f1f;
     font-family: 'Gotham Pro';
     font-weight: 700;
     font-style: normal;
     font-size: 14px;
     display: block;
-    text-align: right;
-    margin-bottom: 5px;
+    text-align: center;
+    margin-bottom: 14px;
     
 }
 
@@ -21,6 +22,7 @@
   align-items: center;
   padding: 0;
   margin: 0;
+  justify-content: space-between;
 }
 .network__item {
   border-radius: 50%;
@@ -28,56 +30,47 @@
   height: 20px;
   border-radius: 50%;
   display: inline-block;
-  background-color: #d4d4d8;
+ background-color: rgba(255, 255, 255, .9);
   vertical-align: top;
   position: relative;
 }
 
-.network__icon:after {
-  content: "";
+.network__icon {
+  
   position: absolute;
-  /* top: 6px;
-  left: 4px; */
   display: inline-block;
   vertical-align: top;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); 
   background: url('../../images/sprites.png') no-repeat center center;
   }
 
-.network__icon:hover {
-  background-color: #a0235f;
-  }
-
-.network-icon--vk:after {
-    background-position: -157px -97px;
+.network-icon--vk {
+    background-position: -157px -109px;
     width: 12px;
     height: 7px; 
   }
-.network-icon--fb:after {
-    background-position: -129px -62px;
+.network-icon--fb {
+    background-position: -130px -62px;
     width: 6px;
     height: 13px;
   }
-.network-icon--google:after {
-    background-position: -157px -10px;
+.network-icon--google {
+    background-position: -156px -80px;
     width: 15px;
     height: 9px;
   }
-.network-icon--twitter:after { 
-    background-position: -157px -68px;
-    width: 11px;
+.network-icon--twitter { 
+    background-position: -40px -136px;
+    width: 12px;
     height: 9px;
   }
-.network-icon--mail:after {
-    background-position: -157px -39px;
+.network-icon--mail {
+    background-position: -10px -136px;
     width: 12px;
     height: 9px;
     
   }
   .network__item {
-    margin-right: 8px; 
+    margin-right: 10px; 
   }
   .network__item:last-child {
     margin-right: 0;

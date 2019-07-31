@@ -40,7 +40,7 @@
     background-image: url('../../images/menu/vector-right.png');
     width: 6px;
     height: 10px;
-    margin-left: 11px;
+    
     background-repeat: no-repeat;
     display: inline-block;
     vertical-align: middle;
@@ -50,7 +50,7 @@
     display: flex;
     /* text-align: left; */
     /* display: inline-block; */
-    margin: 0;
+    margin-right: 11px;
     padding: 0;
     
 }
@@ -84,10 +84,13 @@
 }
 
 .pagination__pages-link--active {
-    color: #fff;
+    color: #ec1e79;
     font-weight: bold;
     width: 25px;
     height: 25px;
     border-radius: 3px;
     background-color: #27273e;
+}
+.pagination__pages-link:hover {
+    color: #ec1e79;
 }

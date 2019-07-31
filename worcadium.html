@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=1100, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link
         href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,700|Roboto:300,700&display=swap&subset=cyrillic"
@@ -21,17 +21,31 @@
                     <a href="worcadium.html" class="logo">
                         <img src="images/worcadium/logo-fig.png" class="logo__img" alt="Логотип коворкинга">
                     </a>
+                    <nav class="menu--white menu--horizontal">
+                        <ul class="menu__list">
+                            <li class="menu__item menu__item--main active">
+                                <a href="worcadium.html" class="menu__link menu__icon menu__icon--main">Главная</a>
+                            </li>
+                            <li class="menu__item menu__item--comments">
+                                <a href="comments.html" class="menu__link menu__icon menu__icon--feed">Отзывы</a>
+                            </li>
+                            <li class="menu__item menu__item--prices">
+                                <a href="prices.html" class="menu__link menu__icon menu__icon--wallet">Тарифы</a>
+                            </li>
+                        </ul>
+                    </nav>
+
                     <address class="contacts">
                         <a href="tel:+78000039210" class="contacts__phone">8 (800) 00-392-10</a>
                         <div class="dropdown">
-                                <div class="dropdown__schedule">График работы</div>
-                                <div class="dropdown__menu">
-                                    <ul class="dropdown__list">
-                                        <li class="dropdown__item-day">пн-вс: 09:00-20:00</li>
-                                        <li class="dropdown__item">обед: 14:00-14:30</li>
-                                        <div class="dropdown__triangle"></div>
-                                    </ul>
-                                </div>
+                            <div class="dropdown__schedule">График работы</div>
+                            <div class="dropdown__menu">
+                                <ul class="dropdown__list">
+                                    <li class="dropdown__item-day">пн-вс: 09:00-20:00</li>
+                                    <li class="dropdown__item">обед: 14:00-14:30</li>
+                                    <div class="dropdown__triangle"></div>
+                                </ul>
+                            </div>
                         </div>
                     </address>
                 </div>
@@ -51,46 +65,51 @@
                 <div class="container maincontent__container">
 
                     <aside class="sidebar">
-                            <nav class="menu">
-                                    <ul class="menu__list">
-                                      <li class="menu__item"><a class="active menu__link" href="worcadium.html">
-                                          <div class="menu__icon menu__icon_main"></div>
-                                          <div class="menu__text">Главная</div>
-                                        </a></li>
-                                      <li class="menu__item"><a class="menu__link" href="comments.html">
-                                          <div class="menu__icon menu__icon_feed"></div>
-                                          <div class="menu__text">Отзывы</div>
-                                        </a></li>
-                                      <li class="menu__item"><a class="menu__link" href="prices.html">
-                                          <div class="menu__icon menu__icon_wallet"></div>
-                                          <div class="menu__text">Тарифы</div>
-                                        </a></li>
-                                    </ul>
-                            </nav>
+                        <div class="specifics">
+                            <div class="specifics__title-main">Топ-тариф</div>
+                            <div class="specifics__desc">
+                                <h3 class="specifics__title">уникальность</h3>
+                                <p class="specifics__text">Создан для вашего комфортного отдыха</p>
+                                <ul class="specifics__list-check">
+                                    <li class="specifics__list-item">Кофе/чай</li>
+                                    <li class="specifics__list-item">Шкаф (5кг)</li>
+                                    <li class="specifics__list-item">Рабочее место</li>
+                                </ul>
+                            </div>
+
+                        </div>
+                        <div class="network">
+                            <div class="network__text">Наши социальные сети</div>
+                            <ul class="network__list">
+                                <li class="network__item">
+                                    <a href="/" class="network__icon network-icon--vk"></a>
+                                </li>
+                                <li class="network__item">
+                                    <a href="/" class="network__icon network-icon--fb"></a>
+                                </li>
+                                <li class="network__item">
+                                    <a href="/" class="network__icon network-icon--google"></a>
+                                </li>
+                                <li class="network__item">
+                                    <a href="/" class="network__icon network-icon--twitter"></a>
+                                </li>
+                                <li class="network__item">
+                                    <a href="/" class="network__icon network-icon--mail"></a>
+                                </li>
+                            </ul>
+                        </div>
+
                     </aside>
 
 
-                    <main class="page">
+                    <main class="page page__inner">
 
-                        <section class="specific">
+                        <!-- <section class="specific">
                             <h1 class="specific__title">Особенности</h1>
                             <div class="specific__block">
 
                                 <ul class="specific__list">
-                                    <li class="specific__item specifics">
-                                        <div class="specifics__icon"><img src="./images/specific/flower.png"
-                                                class="specifics__icon-img" alt=""></div>
-                                        <div class="specifics__desc">
-                                            <h3 class="specifics__title">уникальность</h3>
-                                            <p class="specifics__text">Создан для вашего комфортного отдыха</p>
-                                            <ul class="specifics__list-check">
-                                                <li class="specifics__list-item">Кофе/чай</li>
-                                                <li class="specifics__list-item">Шкаф (5кг)</li>
-                                                <li class="specifics__list-item">Рабочее место</li>
-                                            </ul>
-                                        </div>
-
-                                    </li>
+                                
                                     <li class="specific__item specifics">
                                         <div class="specifics__icon"><img src="./images/specific/star.png"
                                                 class="specifics__icon-img" alt=""></div>
@@ -121,7 +140,7 @@
                                     </li>
                                 </ul>
                             </div>
-                        </section>
+                        </section> -->
                         <section class="news">
                             <!-- <div class="container"> -->
                             <h1 class="news__title">Последние новости</h1>
@@ -237,32 +256,13 @@
         <div class="container footer__container">
             <p class="footer__text">
                 Сделано с любовью и старанием на курсе «HTML + CSS» в "<a href="https://loftschool.com/"
-                    class="logtschool">LoftSchool</a>". Автор работы: <b><a class="name-autor"
+                    class="loftschool">LoftSchool</a>". Автор работы: <b><a class="name-autor"
                         href="https://vk.com/id45038660">Кавкайкина Юлия</a></b>
             </p>
             <a href="worcadium.html" class="logo footer__logo">
                 <img src="images/worcadium/logo-fig.png" class="logo__img" alt="">
             </a>
-            <div class="network">
-                <div class="network__text">Наши социальные сети</div>
-                <ul class="network__list">
-                    <li class="network__item">
-                        <a href="/" class="network__icon network-icon--vk"></a>
-                    </li>
-                    <li class="network__item">
-                        <a href="/" class="network__icon network-icon--fb"></a>
-                    </li>
-                    <li class="network__item">
-                        <a href="/" class="network__icon network-icon--google"></a>
-                    </li>
-                    <li class="network__item">
-                        <a href="/" class="network__icon network-icon--twitter"></a>
-                    </li>
-                    <li class="network__item">
-                        <a href="/" class="network__icon network-icon--mail"></a>
-                    </li>
-                </ul>
-            </div>
+
         </div>
     </footer>
 

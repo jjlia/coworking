@@ -2,8 +2,10 @@
   display: flex;
   flex-direction: column; 
   color: #ec1e79;
+  text-decoration: none;
    animation: screw .8s .5s cubic-bezier(.3, .96, .56, .81);
 }
+
 
 .auth__logo {
     margin-bottom: 29px;
@@ -14,13 +16,32 @@
 
 .auth__welcome {
     color: inherit;
-    border: 3px solid currentColor;
+    border: 3px solid #ec1e79;
     padding: 14px 22px;
+    min-width: 182px;
+    min-height: 44px;
     text-decoration: none;
     text-transform: uppercase;
     font-size: 12px;
     font-weight: bold;
     letter-spacing: 1.2px;
+    cursor: pointer;
+    transition: .3s;
+    position: relative;
+}
+
+.auth__welcome:before {
+    content: "";
+    display: block;
+    position: absolute;
+    width: 90%;
+    height: 500%;
+    top: -184px;
+}
+
+.auth__welcome:hover {
+    background-color: #ec1e79;
+    color: #fff;
 }
 
 @keyframes screw {
@@ -33,7 +54,7 @@
         transform: rotate(-20deg);
     }
 
-    50% {
+    60% {
         transform: rotate(5deg);
     }
 

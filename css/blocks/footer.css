@@ -21,8 +21,13 @@
     line-height: 16px;
     font-family: 'Gotham Pro';
     margin: 0;
+    
 }
 
 .footer__logo {
-    margin-right: 92px;
+    margin-right:0px;
+}
+
+.loftschool, .name-autor {
+    color: #fff;
 }

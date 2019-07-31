@@ -86,6 +86,10 @@
     height: 45px;
 }
 
+.btn:hover {
+    background-color: #ec1e79;
+}
+
 .form__question {
     display: flex;
     flex-flow: column;

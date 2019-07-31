@@ -1,155 +1,202 @@
-.menu__item {
+.menu--horizontal {
+    display: block;
     margin-bottom: 30px;
+    padding-left: 32px;
 }
 
-.menu__item:last-child {
-    margin-bottom: 0;
+.menu__list {
+    display: flex;
+    text-align: left;
+    justify-content: space-between;
 }
 
-.menu__text {
-    font-family: 'Gotham Pro';
+.menu--horizontal .menu__item {
+    margin-right: 127px;
+}
+
+.menu--horizontal .menu__item:last-child {
+    margin-right: 0;
+}
+
+
+.menu__item--main.active .menu__link {
+    color: #ec1e79;
+  }
+  
+  .menu__item--comments.active .menu__link {
+    color: #000;
+  }
+  
+  .menu__item--prices.active .menu__link {
+    color: #000;
+  }
+  
+  .menu__item.active .menu__icon::before {
+    opacity: 0;
+  }
+  
+  .menu__item.active .menu__icon::after {
+    opacity: 1;
+  }
+  
+  .menu__link {
     font-size: 12px;
     font-weight: bold;
-    letter-spacing: 1.4px;
+    color: #fff;
+    letter-spacing: 1.2px;
     text-transform: uppercase;
     text-decoration: none;
-    display: inline-block;
-    vertical-align: top;
-    color: #ec1e79;
-
-}
-
-.menu__link:hover .menu__text,
-.menu__link.active .menu__text {
-    color: #000;
-}
-/* .menu__text--active {
-    color: #000;
-}
-
-.menu__text {
-    display: inline-block;
-    vertical-align: middle;
-    width: 24px;
-    height: 18px;
-    background: no-repeat center center;
-    margin-right: 14px;
-}
-
-.menu {
-    top: 72px;
-}
-.menu__text--active.menu__text--icon--main:before {
-    background-image: url('../../images/menu/main-hover.png');
-}
-
-.menu__text--icon--main:before {
-    background-image: url('../../images/menu/main.png');
-}
-
-.menu__text--icon--main:hover:before {
-    background-image: url('../../images/menu/main-hover.png');
-}
-
-.menu__text--icon--feed:hover:before {
-    background-image: url('../../images/menu/feed-hover.png');
-}
-
-.menu__text--active.menu__text--icon--feed:before {
-    background-image: url('../../images/menu/feed-hover.png');
-}
-
-
-.menu__text--icon--feed:before {
-    background-image: url('../../images/menu/feed.png');
-}
-
-.menu__text--icon--wallet:before {
-    background-image: url('../../images/menu/wallet.png');
-}
-
-.menu__text--icon--wallet:hover:before {
-    background-image: url('../../images/menu/wallet-hover.png');
-}
-
-.menu__text--active.menu__text--icon--wallet:before {
-    background-image: url('../../images/menu/wallet-hover.png');
-}
-
-.menu__icon:after {
+    transition: color 0.2s;
+  }
+  
+  .menu__icon {
+    position: relative;
+  }
+  
+  .menu--white .menu__icon::before {
     content: "";
     position: absolute;
-    display: block;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background: url('../../images/sprites.png')
-}
-.menu__icon_main:hover:after {
-    background-position: -49px -100px;
-    width: 17px;
-    height: 15px;
-} */
-.menu__icon {
-    margin-right: 30px;
-    display: inline-block;
-    vertical-align: top;
-}
-.menu__icon:after {
-    content: "";
-    display: inline-block;
-    vertical-align: top;
-    position: absolute;
+    top: -2px;
+    left: -33px;
     background: url('../../images/sprites.png') no-repeat;
-    
+  }
+  
+  .menu--white .menu__icon::after {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -33px;
+    background: url('../../images/sprites.png') no-repeat;
+  }
+  
+.menu--white .menu__icon--main:before{
+    background-position: -156px -10px;
+    width: 17px;
+    height: 15px;
+}
+.menu--white .menu__icon--main:after{
+    background-position: -156px -10px;
+    width: 17px;
+    height: 15px;
+} 
+ 
+
+.menu--white .menu__icon--feed:before {
+    background-position: -90px -62px;
+    width: 20px;
+    height: 18px;
 }
 
-.menu__icon_main:after {
-    background-position: -49px -100px;
-    width: 17px;
-    height: 15px;
+.menu--white .menu__icon--feed:after {
+    background-position: -10px -62px;
+    width: 20px;
+    height: 18px;
 }
-.menu__icon_main:hover:after {
-    background-position: -86px -100px;
-    width: 17px;
-    height: 15px;
-}
-.menu__link.active .menu__icon_main:after {
-    background-position: -86px -100px;
-    width: 17px;
-    height: 15px;
+ 
+
+.menu--white .menu__icon--wallet:before {
+    background-position: -88px -100px;
+    width: 19px;
+    height: 16px;
 }
 
-.menu__icon_feed:after {
+.menu--white .menu__icon--wallet:after {
+    background-position: -10px -100px;
+    width: 19px;
+    height: 16px;
+}
+.menu__item .menu__icon::after {
+    opacity: 0;
+    transition: 0.2s;
+  }
+  
+  .menu__link:hover {
+   color: #ec1e79;
+   transition: 0.2s;
+  }
+  
+  .menu__icon:hover::before {
+    opacity: 0;
+    transition: 0.2s;
+  }
+  
+  .menu__icon:hover::after {
+    opacity: 1;
+    transition: 0.2s;
+  }
+  /* menu pink */
+  .menu--pink .menu__list {
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+    text-align: left;
+  }
+  
+  
+  .menu--pink .menu__icon::before {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -33px;
+    background: url('../../images/sprites.png') no-repeat;
+  } 
+  
+  .menu--pink .menu__icon::after {
+    content: "";
+    position: absolute;
+    top: -2px;
+    left: -33px;
+    background: url('../../images/sprites.png') no-repeat;
+  } 
+  
+  .menu--pink .menu__icon--main:before{
+    background-position: -156px -10px;
+    width: 17px;
+    height: 15px;
+}
+.menu--pink .menu__icon--main:after{
+    background-position: -156px -46px;
+    width: 17px;
+    height: 15px;
+} 
+ 
+
+.menu--pink .menu__icon--feed:before {
     background-position: -10px -62px;
     width: 20px;
     height: 18px;
 }
 
-.menu__icon_feed:hover:after {
-    background-position: -50px -62px;
+.menu--pink .menu__icon--feed:after {
+    background-position: -51px -62px;
     width: 20px;
     height: 18px;
 }
-.menu__link.active .menu__icon_feed:after {
-    background-position: -50px -62px;
-    width: 20px;
-    height: 18px;
-}
+ 
 
-.menu__icon_wallet:after {
-    background-position: -90px -62px;
-    width: 19px;
-    height: 16px;
-}
-
-.menu__icon_wallet:hover:after {
+.menu--pink .menu__icon--wallet:before {
     background-position: -10px -100px;
     width: 19px;
     height: 16px;
 }
-.menu__link.active .menu__icon_wallet:after {
-    background-position: -10px -100px;
+
+.menu--pink .menu__icon--wallet:after {
+    background-position: -49px -100px;
     width: 19px;
     height: 16px;
 }
+
+.menu--pink .menu__link {
+    font-size: 12px;
+    font-weight: bold;
+    color: #ec1e79;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: color 0.2s;
+  }
+  
+  .menu--pink .menu__link:hover {
+    color: #000;
+    transition: 0.2s;
+   }

@@ -1,5 +1,9 @@
 .page {
-    width: 83%;
-   
+    display: flex;
+    flex-flow: column;
+    
 }
-
+.page__inner {
+    padding-left: 20px;
+    width: 75%;
+}
