@@ -4,7 +4,7 @@
     align-items: center;
     padding: 27px 62px;
     border: 1px solid #e8e9ed;
-    margin-right: 23px;
+    margin-bottom: 25px;
 }
 .partners__container {
     width: 100%;
@@ -13,7 +13,7 @@
 }
 
 .partners__title--sidebar {
-    margin-bottom: 52px;
+    margin-bottom: 47px;
     color: #221f1f;
     font-family: "Gotham Pro";
     font-size: 18px;
