@@ -43,7 +43,7 @@
     background: #27273e;
     display: flex;
     justify-content: center;
-    margin: 15px 10px;
+    /* margin: 15px 10px; */
 }
 
 .banner-img_text {
