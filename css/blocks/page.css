@@ -1,5 +1,8 @@
 .page {
-    width: 83%;
-   
+    display: flex;
+    flex-flow: column;
+    
 }
-
+.page__inner {
+    width: 73%;
+}

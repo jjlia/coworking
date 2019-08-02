@@ -1,7 +1,7 @@
 
 .banner {
     background-color: #27273e;
-    margin-bottom: 69px;
+    margin-bottom: 30px;
     
 }
 
@@ -29,4 +29,29 @@
     color: #ec1e79;
     font-family: "Gotham Pro";
     font-weight: 700;
+}
+
+.banner-img-sidebar {
+    background: url('../../images/worcadium/pattern.png') center;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 10px 7px;
+    line-height: 30px;
+}
+.banner-img {
+    background: #27273e;
+    display: flex;
+    justify-content: center;
+    /* margin: 15px 10px; */
+}
+
+.banner-img_text {
+    display: inline-block;
+    text-align: center;
+    color: #fff;
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 300;
+    margin: 0;
 }
